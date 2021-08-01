@@ -49,6 +49,7 @@ const time = document.getElementById('time'),
    //Afternoon
    document.body.style.backgroundImage = "url('./img/afternoon.jpg')";
    greeting.textContent = 'Good Afternoon';
+   document.body.style.color = 'white';
   } else {
    //evening
    document.body.style.backgroundImage = "url('./img/night.jpg')";
